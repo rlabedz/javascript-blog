@@ -95,7 +95,4 @@ function generateTitleLinks(){
 }
 }
 
-generateTitleLinks();
-
-
-
+generateTitleLinks();     
