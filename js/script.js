@@ -1,4 +1,4 @@
-{'use strict';
+'use strict';
 
 const titleClickHandler = function(event){
 
@@ -58,7 +58,7 @@ function generateTitleLinks(){
 
   /* find all the articles and save them to variable: articles */
 
-    const articles = document.querySelectorAll(optArticleSelector);
+    let articles = document.querySelectorAll(optArticleSelector);
     let html = '';
     console.log(articles);
 
@@ -99,4 +99,3 @@ generateTitleLinks();
 
 
 
-}
